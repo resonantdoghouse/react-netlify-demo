@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <img src="https://picsum.photos/200/300" />
+      
       <BrowserRouter>
         <NavLink to="/">Home</NavLink>{' '}
         <NavLink to="/about">About</NavLink>
